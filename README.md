@@ -1,2 +1,3 @@
 # PSWorkshop
-Just a demo repo for a workshop
+
+Just a demo repository for a workshop
