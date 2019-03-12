@@ -8,12 +8,10 @@ filter Select-Running {
 }
 
 Get-Service | Select-Running -Status Running
-
 function Get-Age ($BirthDay) {
     $Age = (Get-Date) - (Get-Date $BirthDay)
     Write-Output $Age.Days
 }
-
 Get-Age -BirthDay 1983-09-22
 
 function Get-Age {
